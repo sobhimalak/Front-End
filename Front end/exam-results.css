@@ -1,0 +1,21 @@
+table, th, td {
+    border: 3px double black;
+  }
+  .headers
+  {
+     font-weight: bold;
+     text-align: center;
+
+  }
+
+  .result
+  {
+      width: 400px;
+      text-align: right;
+      padding-right: 5px;
+  }
+
+  table
+  {
+      padding-left: 5px;
+  }
