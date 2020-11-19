@@ -1,0 +1,60 @@
+body
+{
+    font-family: "Times New Roman", serif;
+    color: #ffffff;
+    background: url("cafe-home.jpg");
+  
+  background-repeat: no-repeat;
+  background-size:cover;
+  counter-reset: my-sec-counter;
+  width: 1180px;
+  
+}
+
+h1
+{
+  font-family: forte;
+  color:#737373;
+  margin-left: 35%;
+}
+p
+{
+  font-size: 18px;;
+}
+
+main
+{
+  width: 600px;
+  margin-left: 25% ;
+  color:#cccccc;
+}
+
+main
+{
+  
+  margin-top: -150px;
+}
+a:link
+{
+  text-decoration: none;
+  color: #CCCCCC;
+  
+}
+ol
+{
+  list-style: none;
+  
+}
+
+ol li::before {
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter) ". ";
+  color: #cccccc;
+  font-weight: bold;
+  
+} 
+
+p::first-line
+{
+  color: #a6f016;
+}
