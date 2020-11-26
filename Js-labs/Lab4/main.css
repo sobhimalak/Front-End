@@ -1,0 +1,36 @@
+body{
+    margin: 20px;
+    padding: 20px;
+    background-color: #cccccc;
+    font-family: 'poppins';
+}
+.header 
+{
+    text-align: center;
+}
+.calc{
+    border: 2px solid black;
+    width: 200px;
+    height: 80px;
+    padding: 30px;
+   
+}
+input{
+    margin-bottom: 5px;
+    border-radius: 35px;   
+}
+
+.showText{
+    padding: 20px;
+}
+#time {
+
+border:2px solid black; 
+text-align:center; 
+font-size:2em; 
+margin-top: 20px;
+margin-bottom:10px;
+width: 100px;
+height: 50px;
+}
+

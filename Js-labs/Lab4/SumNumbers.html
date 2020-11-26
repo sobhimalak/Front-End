@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Numbers</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="Lab4.js"></script>
+</head>
+<body>
+    <h1 class="header">Lab 4 / Sobhi Malak</h1>
+    <div class="calc">
+        <div>
+            <input type="text" id="num1" /> +
+        </div>
+<div>
+    <input type="text" id="num2" /> =
+</div>
+
+<div>
+    <input type="text" id="sum" readonly="readonly" />
+    <input type="button" value="Calc" onclick="calc()" />
+</div>
+
+    </div>
+
+<div class="showText">
+    Welcome to the "Show More Text Example".
+<a href="#" id="more" onclick= "showText()">Read more …</a>
+
+<span id="text" style="display:none">
+        Welcome to JavaScript and DOM.
+    <br>Welcome to JavaScript and DOM.
+    <br>Welcome to JavaScript and DOM.
+    <br>Welcome to JavaScript and DOM.
+    <br>Welcome to JavaScript and DOM.
+    <br>Welcome to JavaScript and DOM.
+</span>
+</div>
+
+
+<div class="extractText">
+    <ul id="items">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+      </ul>
+      <textarea id="result"></textarea>
+      <br>
+      <button onclick="extractText()">Extract Text</button>
+      
+</div>
+
+<div class="ListItem">
+    <h1>List of Items</h1>
+<ul id="ListItems"></ul>
+<input type="text" id="newText" />
+<input type="button" value="Add"  onclick="addItem()">
+
+</div>
+
+<div id="time">00:00</div>
+<div>
+<button id="startBtn">Start</button>
+<button id="stopBtn" disabled="true">Stop</button>
+</div>
+
+
+</body>
+</html>
