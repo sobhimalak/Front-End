@@ -24,9 +24,16 @@ class Person{
         this.email = email;
      }
      toString(){
-         return `${this.firstName} ${this.lastName} (age : ${this.age}, email: ${this.email})`;
+         return `${this.firstName} ${this.lastName} ${this.age} ${this.email}`;
      }
         
 }
-let person = new Person('Maria', 'Petterson', 22, 'mp@gmail.com'); 
-console.log("" + person);
+let person = new Person('Maria', 'Petterson', "(age : 22", 'email: mp@gmail.com)'); 
+let person1 = new Person('Lexicon'); 
+let person2 = new Person('Stefan', 'Larsson', 'age : 25'); 
+let person3 = new Person('Peter', 'Jansson', 'age : 24', 'email: ptr@live.com');
+
+console.log('' + person);
+console.log('' + person1);
+console.log('' + person2);
+console.log('' + person3);
